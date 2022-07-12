@@ -1,0 +1,149 @@
+.inputTask {
+    display: flex;
+    justify-content: center;
+    margin-top: -32px;
+}
+
+.inputTask form {
+    display: flex;
+}
+
+.inputTask input {
+    color: var(--gray-300);
+    background-color: var(--gray-500);
+    border: 1px solid var(--gray-700);
+
+    height: 54px;
+    width: 638px;
+
+    border-radius: 8px;
+    padding: 1rem;
+
+    margin-right: 8px;
+
+    box-shadow: 0 4px 4px #00000048;
+}
+
+.inputTask button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: var(--gray-100);
+    background-color: var(--blue-dark);
+    border-radius: 8px;
+
+    font-weight: bold;
+    font-size: 0.875rem;
+
+    padding: 1rem;
+
+    height: 54px;
+    border: none;
+
+    box-shadow: 0 4px 4px #00000048;
+
+    transition: background-color .1s; 
+}
+
+.inputTask button:hover {
+    background-color: var(--blue);
+}
+
+
+
+.inputTask button svg {
+    margin-left: 8px;
+}
+
+.main {
+    margin-top: 4rem;
+}
+
+.statusTask {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.created strong {
+    color: var(--blue);
+    font-size: 0.875rem;
+
+    margin-right: 8px;
+}
+
+.created span {
+    color: var(--gray-200);
+    background-color: var(--gray-400);
+
+    font-size: 0.75rem;
+    font-weight: bold;
+
+    padding: 2px 8px;
+    border-radius: 8px;
+}
+
+.done strong {
+    color: var(--purple);
+
+    font-size: 0.875rem;
+
+    margin-right: 8px;
+}
+
+.done span {
+    color: var(--gray-200);
+    background-color: var(--gray-400);
+
+    font-size: 0.75rem;
+    font-weight: bold;
+
+    padding: 2px 8px;
+    border-radius: 8px;
+}
+
+.taskList {
+    margin-top: 24px;
+}
+
+.taskList ul li {
+    display: flex;
+    align-items: center;
+    list-style: none;
+
+    border: 1px solid var(--gray-400);
+    border-radius: 8px;
+
+    height: 5rem;
+    padding: 1rem;
+
+    background-color: var(--gray-500);
+
+    font-size: 14px;
+
+    box-shadow: 0 2px 8px #00000048;
+}
+
+.taskList ul li + li {
+  margin-top: 12px;
+}
+
+.noTasks {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 4rem;
+}
+
+.noTasks strong {
+    margin-top: 1rem;
+    color: var(--gray-300);
+}
+
+.noTasks p {
+    color: var(--gray-300);
+}
